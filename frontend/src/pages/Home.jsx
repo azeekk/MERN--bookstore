@@ -37,6 +37,9 @@ const Home = () => {
         <Link to="/books/create">
           <MdOutlineAddBox className="text-sky-800 text-4xl" />
         </Link>
+        <Link to="/students/create">
+          <MdOutlineAddBox className="text-sky-800 text-4xl" />
+        </Link>
       </div>
       {loading ? (
         <Spinner />

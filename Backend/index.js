@@ -2,6 +2,8 @@ const express = require('express')
 const app = express()
 const Book = require('./models/book-models')
 const bookRoutes = require('./router/book-router')
+const adminRoutes = require('./router/admin-router')
+
 const mongoose = require('mongoose')
 const cors = require('cors')
 
@@ -13,6 +15,7 @@ app.use(cors())
 
 // routes
 app.use("/api/books", bookRoutes)
+app.use("/api/admins", adminRoutes);
 
 
 
