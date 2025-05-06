@@ -17,8 +17,6 @@ const handleStudentCreate = () => {
 
     
 
-
-
 }
 
   return (

@@ -12,7 +12,7 @@ import CreateStudent from './pages/CreateStudent'
 const App = () => {
   return (
     <Routes>
-      <Route path='/' element={<Home />} ></Route>
+      <Route path='/' element={<Home />} ></Route>  
       <Route path='/login' element={<Login />}></Route>
       <Route path='/register' element={<Register />}></Route>
       <Route path='/books/create' element={<CreateBook />} ></Route>
